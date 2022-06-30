@@ -1,14 +1,16 @@
-import Males from './Males';
-import Females from './Females';
+import './App.css';
+import Products from './Products';
+
+
 
 function App() {
+
   return (
-    <div className="App">
-      <Males/>
-      <hr/>
-      <Females/>
+    <div className='App'>
+      <Products/>
     </div>
   );
 }
+
 
 export default App;

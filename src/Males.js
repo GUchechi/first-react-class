@@ -1,10 +1,11 @@
-const Males = () => {
+const Males = ({ guys}) => {
+    
     return (
         <div>
             <ul>
-                <li>Godswill</li>
-                <li>Emmanuel</li>
-                <li>Caeser</li>
+                {
+                    guys.map((guy) =>(<li>{guy.name}</li>))
+                }
             </ul>
         </div>
     );
